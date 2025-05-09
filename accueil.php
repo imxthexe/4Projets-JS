@@ -42,7 +42,8 @@
         }
 
         .card h3 {
-            font-size: 22px;
+            font-family: "Bebas Neue", serif;
+            font-size: 28px;
             margin: 0 0 10px;
             background: linear-gradient(to right, #A300EB, #EB9C00);
             background-clip: text;
@@ -61,20 +62,22 @@
     <div class="container">
         <div class="card" onclick="redirectTo('TodoList/todolist.html')">
             <h3>Projet To-Do List</h3>
-            <p>Description courte du projet 1.</p>
+            <p>Une application simple pour gérer des tâches à faire, avec ajout, suppression et suivi.</p>
         </div>
         <div class="card" onclick="redirectTo('Météo/meteo.html')">
             <h3>Projet Web Météo API</h3>
-            <p>Description courte du projet 2.</p>
+            <p>Affiche la météo en temps réel d'une ville saisie, grâce à une API météo externe.</p>
         </div>
         <div class="card" onclick="redirectTo('Quiz/quiz.html')">
             <h3>Projet Quizz</h3>
-            <p>Description courte du projet 3.</p>
+            <p>Un jeu de questions-réponses interactif avec score final et feedback immédiat.</p>
         </div>
         <div class="card" onclick="redirectTo('Convertisseur/convertisseur.html')">
             <h3>Projet Convertisseur API</h3>
-            <p>Description courte du projet 4.</p>
+            <p>Convertit des devises en temps réel grâce à une API de taux de change.</p>
         </div>
+    </div>
+
     </div>
 
     <script>
