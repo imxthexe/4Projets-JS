@@ -132,9 +132,41 @@ ul li span:hover{
     font-size: 18px;
     z-index: 1000;
     transition: background-color 0.3s ease;
-  }
+}
   
-  .back-to-top:hover {
+.back-to-top:hover {
     background-color: #555;
-  }
-  
+}
+
+.add {
+    display: flex;
+}
+
+.arrow_add{
+    display: none;
+    width: 19px;
+    height: 19px;
+    margin-left: 2px;
+}
+
+@media screen and (max-width: 560px) {
+
+    .btn_add{
+        display: none;
+    }
+
+    .arrow_add{
+        display: block;
+    }
+
+    button{
+        border: none;
+        outline: none;
+        padding: 16px 16px;
+        background-color: #675AFE;
+        color: #fff;
+        border-radius: 40px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+}

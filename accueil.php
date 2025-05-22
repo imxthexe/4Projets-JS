@@ -68,10 +68,6 @@
             <h3>Projet Web Météo API</h3>
             <p>Affiche la météo en temps réel d'une ville saisie, grâce à une API météo externe.</p>
         </div>
-        <div class="card" onclick="redirectTo('Quiz/quiz.html')">
-            <h3>Projet Quizz</h3>
-            <p>Un jeu de questions-réponses interactif avec score final et feedback immédiat.</p>
-        </div>
         <div class="card" onclick="redirectTo('Convertisseur/convertisseur.html')">
             <h3>Projet Convertisseur API</h3>
             <p>Convertit des devises en temps réel grâce à une API de taux de change.</p>
